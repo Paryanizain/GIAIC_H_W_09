@@ -16,7 +16,7 @@ export default function Nav(){
                 <li className="hover:text-slate-400">Contact Us</li>
             </ul>
             <div className="text-white md:hidden">
-                <a className="text-5xl px-6" href="#">&#8801;</a>
+                <a className="text-5xl px-12" href="#">&#8801;</a>
             </div>
         </div>
     )
