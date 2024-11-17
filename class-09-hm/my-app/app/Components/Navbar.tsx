@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Nav(){
     return(
-        <div className="flex justify-between bg-black px-3 md:px-4 lg:px-8 items-center">
+        <div className="flex justify-between bg-black md:px-4 lg:px-8 items-center">
             
             <Image src="/zoodieslogo01.png" alt="/Zoodies" width={200} height={200} />
             
@@ -16,7 +16,7 @@ export default function Nav(){
                 <li className="hover:text-slate-400">Contact Us</li>
             </ul>
             <div className="text-white md:hidden">
-                <a className="text-5xl" href="#">&#8801;</a>
+                <a className="text-5xl px-6" href="#">&#8801;</a>
             </div>
         </div>
     )
