@@ -14,7 +14,8 @@ export default function HeroSection() {
           Hoodies<span className="border-l mx-2"></span>
           T-Shirts<span className="border-l mx-2"></span>Pants
           <span className="border-l mx-2"></span>Sweatshirts
-          <span className="border-l mx-2"></span>Shorts Jackets
+          <span className="border-l mx-2"></span>Shorts
+          <span className="border-l mx-2"></span>Jackets
         </h1>
         <button className="text-white border text-xs p-1 px-[8px] lg:text-sm rounded-md hover:border-slate-400 hover:text-slate-400">
           VIEW NEW RELEASES
