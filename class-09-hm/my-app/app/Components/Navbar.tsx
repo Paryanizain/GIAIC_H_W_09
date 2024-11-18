@@ -3,7 +3,7 @@ export default function Nav(){
     return(
         <div className="flex justify-between dark:bg-black bg-white md:px-4 lg:px-8 items-center">
             
-            <Image className="hidden" src="/zoodieslogo01.png" alt="/Zoodies" width={200} height={200} />
+            <Image className="hidden dark:block" src="/zoodieslogo01.png" alt="/Zoodies" width={200} height={200} />
             <Image className="dark:hidden" src="/zoodieslogo02.png" alt="/Zoodies" width={200} height={200} />
 
             
