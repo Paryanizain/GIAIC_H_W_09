@@ -2,20 +2,20 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-black">
+    <div className="w-full dark:bg-black bg-white">
       <div className="flex justify-center">
-        <h1 className=" uppercase text-white font-bold md:text-2xl text-xl mt-28">
+        <h1 className=" uppercase dark:text-white text-black font-bold md:text-2xl text-xl mt-28">
           where to?
         </h1>
       </div>
-      <ul className="text-white font-semibold text-sm md:text-base flex justify-center space-x-10 mt-6">
+      <ul className="dark:text-white text-black font-semibold text-sm md:text-base flex justify-center space-x-10 mt-6">
         <li className="hover:text-slate-400">Outside</li>
         <li className="hover:text-slate-400">Location</li>
         <li className="hover:text-slate-400">Video</li>
         <li className="hover:text-slate-400">Team</li>
         <li className="hover:text-slate-400">Enquire</li>
       </ul>
-      <div className="text-white flex justify-between items-center mt-48 md:p-10 p-6">
+      <div className="dark:text-white text-black flex justify-between items-center mt-48 md:p-10 p-6">
         <div className="md:font-semibold md:text-sm text-xs">
           Branding and Marketing by
           <span className="uppercase md:font-bold font-semibold md:text-xl text-base">

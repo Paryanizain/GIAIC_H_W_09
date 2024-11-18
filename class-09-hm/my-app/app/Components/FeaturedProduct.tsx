@@ -1,7 +1,7 @@
 import Image from "next/image";
 const FeaturedProduct = () => {
   return (
-    <div className="bg-zinc-900">
+    <div className="dark:bg-zinc-900 bg-slate-200">
       <div className="flex flex-col md:flex-row justify-between items-center p-8 py-20 gap-6 md:gap-10">
         <div className="bg-white justify-items-center p-6">
           <Image className="hover:opacity-90 transition duration-300"
